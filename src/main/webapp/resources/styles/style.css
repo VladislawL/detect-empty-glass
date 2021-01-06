@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: rgba(93, 166, 152, 0.439216);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.message, .upload-image, .submit, .classification {
+    margin: 15px 0;
+}
+
+.upload-image {
+    width: 80%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-glass-message {
+    padding: 21px;
+
+    position: absolute;
+    width: 452px;
+    height: 315px;
+    left: 34px;
+    top: 67px;
+
+    background: #8EBE57;
+    border-radius: 20px;
+
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.bar-mixing-logo {
+    position: absolute;
+    height: 178px;
+    left: calc(50% - 110px);
+}
+
+.img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.3rem;
+    height: 100%;
+}
+
+.empty-glass-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.yes-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 241px;
+    height: 65px;
+
+    background: rgba(133, 212, 92, 0.8);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.no-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 211px;
+    height: 65px;
+
+    background: #E42121;
+    border-radius: 20px 0px 0px 20px;
+}
